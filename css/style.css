@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,700&display=swap');
+nav { border-bottom: 1px solid rgb(51, 51, 51); }
+.sub-menu-section { }
+.container { }
+.sub-menu { }
+.sub-menu ul { display: flex; }
+.sub-menu li { margin: 20px; }
+.sub-menu ul li a { 
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .nav-item{
+   position: relative;
+ }
+ .hand-icon{
+   position: absolute;
+   top: 21px;
+   right: 15px;
+ }
+.sub-menu ul li a:hover{
+    color: #2DCC70;
+}
+.banner {
+ background-image: url("/images/bannerbg.jpg");
+ text-align: center;
+ position: relative;
+ background: no-repeat;
+ }
+
+.banner img { transform: translateY(60px); }
+.protfloio { margin-top: 110px; text-align: center; }
+.protfloio p { text-align: center; padding-top: 5px; font-weight: 400; font-size: 16px; }
+.protfloio a {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.btn-custom {text-transform: uppercase;background: rgb(45 204 112);padding: 10px;font-size: 18px;}
+.video-section { background: beige; }
+.video { margin: 50px; }
+.video iframe { padding: 33px 0px; }
+.video h2 { text-transform: uppercase; }
+.video p { font-size: 16px; font-weight: 400; }
+.video-content{}
+.blown-section { text-align: center; padding: 20px; background-color: rgb(70, 76, 82); }
+.blown { padding: 20px; }
+.blown h1 { text-transform: uppercase; font-size: 30px; }
+.blown a { }
+.blown .btn-custom { border-radius: unset; }
+footer { text-align: center; }
+footer p { color: rgb(158, 136, 140); }
+footer ul { display: flex; justify-content: end; }
+footer ul li { margin-right: 25px; letter-spacing: 1px; }
+footer ul li a { text-decoration: none; color: rgb(158, 136, 140); }
+nav { border-bottom: 1px solid rgb(51, 51, 51); }
+.sub-menu-section { }
+.container { }
+.sub-menu { }
+.sub-menu ul { display: flex; }
+.sub-menu li { margin: 20px; }
+.sub-menu ul li a {text-decoration: none;color: black;}
+.banner-section { background-image: url("/images/bannerbg.jpg"); }
+
+.banner img {transform: translateY(80px);}
+.protfloio { margin-top: 110px; text-align: center; }
+.protfloio p { text-align: center; padding-top: 5px; font-weight: 400; font-size: 16px; }
+.protfloio a {text-align: center;}
+.btn-custom {text-transform: uppercase;background: rgb(45 204 112);padding: 10px;font-size: 18px;}
+.video-section { background: beige; }
+.video { margin: 50px; }
+.video img { padding: 33px 0px; }
+.video h2 { text-transform: uppercase; }
+.video p { font-size: 16px; font-weight: 400; }
+.blown-section { text-align: center; padding: 20px; background-color: rgb(70, 76, 82); }
+.blown { padding: 20px; }
+.blown h1 { text-transform: uppercase; font-size: 30px; }
+.btn-custom-1{ 
+  border-radius: unset;
+  font-weight: 500;
+  color: #fff;
+  background: #2dcc70;
+}
+footer { text-align: center; }
+footer p { color: rgb(158, 136, 140); }
+footer ul { display: flex; justify-content: end; }
+footer ul li { margin-right: 25px; letter-spacing: 1px; }
+footer ul li a { text-decoration: none; color: rgb(158, 136, 140); }
+
+@media(max-width:1399px){
+  .video h2 {
+    font-size: 27px;
+}
+
+.blown h1 {
+  font-size: 25px;
+}
+footer {
+  padding-top: 10px;
+}
+}
+
+@media(max-width:1199px){
+  .banner img {
+    transform: translateY(80px);
+    width: 63%;
+}
+.video h2 {
+  font-size: 23px;
+}
+.blown h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.blown .btn-custom {
+ 
+  font-size: 16px;
+  font-weight: 500;
+}
+.protfloio a {
+  font-size: 16px;
+  
+}
+footer ul li {
+  margin-right: 9px;
+  letter-spacing: 0px;
+}
+footer p {
+  
+  font-size: 13px;
+}
+}
+@media(max-width:991px){
+  .navbar ul{
+    display: none;
+  }
+  .navbar button{
+    display: none;
+  }
+  .protfloio p {
+    padding-top: 0;
+}
+.video img {
+  width: 90%;
+  transform: translateX(20px);
+}
+.video h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.video p {
+  font-size: 12px;
+}
+.blown-section {
+  padding: 10px;
+}
+.blown h1 {
+  font-size: 16px;
+}
+.btn-custom-1 {
+  
+  font-size: 13px;
+}
+}
+@media(max-width:767px){
+  .video-content {
+    text-align: center;
+}
+.video h2 {
+  font-size: 14px;
+}
+.video p {
+  font-size: 11px;
+  padding: 0 9px;
+}
+.blown h1 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+footer ul{
+  display: none;
+}
+.sub-menu li {
+ margin: 0;
+  padding: 9px;
+}
+.banner img {
+  transform: translateY(40px);
+  width: 63%;
+}
+}
+@media(max-width:575px){
+
+}
+}
+@media(max-width:991px){
+
+}
+@media(max-width:767px){
+
+}
+@media(max-width:575px){
+
+}
